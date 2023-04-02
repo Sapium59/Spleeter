@@ -10,7 +10,7 @@ download pretrained model: https://github.com/deezer/spleeter/releases/tag/v1.4.
 
 
 # Usage
-spleeter separate -p spleeter:2stems -o <destination_directory> <source_sound_file>
+spleeter separate -p spleeter:<pretrained_model> -o <destination_directory> <source_sound_file>
 
 ## Sample 
 spleeter separate -p spleeter:2stems -o dst src/yanse_wanghaojue.mp3 
